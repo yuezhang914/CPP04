@@ -6,9 +6,10 @@
 /*   By: yzhang2 <yzhang2@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/26 08:01:43 by yzhang2           #+#    #+#             */
-/*   Updated: 2026/05/09 17:51:58 by yzhang2          ###   ########.fr       */
+/*   Updated: 2026/05/10 15:55:46 by yzhang2          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "WrongAnimal.hpp"
 
@@ -42,5 +43,5 @@ std::string WrongAnimal::getType() const
 
 void WrongAnimal::makeSound() const
 {
-    std::cout << "Wrong Aaaaaaaaaaaa!" << std::endl;
+    std::cout << "Wrong undefined animal sound" << std::endl;
 }

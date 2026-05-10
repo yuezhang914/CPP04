@@ -6,9 +6,10 @@
 /*   By: yzhang2 <yzhang2@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/04/26 08:00:40 by yzhang2           #+#    #+#             */
-/*   Updated: 2026/05/09 17:51:28 by yzhang2          ###   ########.fr       */
+/*   Updated: 2026/05/10 15:55:24 by yzhang2          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "Animal.hpp"
 
@@ -42,5 +43,5 @@ std::string Animal::getType() const
 
 void Animal::makeSound() const
 {
-    std::cout << "Aaaaaaaaaaaaaaaaaaaa!" << std::endl;
+    std::cout << "Some undefined animal sound" << std::endl;
 }
